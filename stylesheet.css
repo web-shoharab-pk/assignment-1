@@ -1,11 +1,11 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
    
 }
 h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 600;
 }
 p{
@@ -17,6 +17,7 @@ p{
 }
 .navbar{
     font-size: 18px;
+    font-weight: 600;
     background-color: white;    
 }
 .nav-link{
@@ -30,8 +31,7 @@ p{
 }
 section{
     width: 100%;
-    height: 80vh;
-
+    height: 600px;
     background-color: white;
 }
 .half-width{
@@ -39,7 +39,7 @@ section{
     margin-left: 4%;
     padding: 1%;
     float: left;
-    height: 65vh;
+    height: 500px;
 }
 
 .hire-link{
@@ -47,10 +47,10 @@ section{
     font-weight: 600;
     color: white;
     text-decoration: none;
-    padding: 8px 30px;
-    /* border: 3px solid orange; */
+    padding: 15px 35px;
     border-radius: 5px;
     background-image: linear-gradient(orange, #f75b13);
+
 }
 .hire-link:hover{
    text-decoration: underline;
@@ -64,8 +64,7 @@ section{
     font-weight: 600;
     color: white;
     text-decoration: none;
-    padding: 8px 30px;
-    /* border: 3px solid orange; */
+    padding: 10px 30px;
     border-radius: 5px;
     background-image: linear-gradient(orange, #f75b13)  
 }
@@ -75,9 +74,12 @@ section{
     background-image: linear-gradient( #f75b13, orange);  
 }
 
+/* mid section end */
+
 .last-section{
-background-color: gainsboro;
-padding: 10px 0;
+background-color: #eeeeee;
+padding: 10px 0  100px 0;
+ 
 }
 #word{
     font-size: 40px;
@@ -87,30 +89,33 @@ padding: 10px 0;
     color: #ff5100b4;
 }
 .project{
-    width: 25%;
-    height: 50vh;
-    margin: 2% 4.15%;
+    width: 27%;
+    height: 55vh;
+    margin: 2% 3.15%;
     float: left;
     background-color: white;
     box-shadow: 2px 5px 20px 2px grey;
     border-radius: 15px;
     cursor: pointer;
 }
+.project img{
+    width: 100%;
+}
 .lastet{
     text-align: center; 
     font-size: 3rem;
 }
-.project img{
-    width: 100%;
-}
 .margin{
-    margin:5px 0 10px 10px;
+    margin: 5px 0 10px 10px;
 }
+
+/* last section end */
 
 .chat-div{
     height: 40vh;
     width: 80%;
    background-image: url("shapes/Group_33094_1.png");
+   /* background-repeat: no-repeat; */
    background-size: cover;
     margin: 2% 10%;
     border-radius: 30px;
@@ -127,7 +132,7 @@ padding: 10px 0;
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange, #f75b13) ;
@@ -146,13 +151,15 @@ padding: 10px 0;
 }
 .contacted h3{
     color: grey;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .contacted h2{
     color: #5959ffe5;
+    font-size: 2rem;
 }
 .contacted img{
     width: 5vh;
     height: 5vh;
-    margin: 0 10px;
+    margin: 0  10px 40px 10px;
 }

@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+   
 }
 h1{
     font-size: 70px;
@@ -22,14 +23,15 @@ p{
     color: black;
     text-decoration: none;
     text-align: center;
-    padding: 10px 50px;
+    padding: 1% 7%;
 }
 .nav-link:hover{
     text-decoration: underline;
 }
 section{
     width: 100%;
-    height: 50vh;
+    height: 80vh;
+
     background-color: white;
 }
 .half-width{
@@ -37,6 +39,7 @@ section{
     margin-left: 4%;
     padding: 1%;
     float: left;
+    height: 65vh;
 }
 
 .hire-link{
@@ -70,4 +73,86 @@ section{
 .cv-button:hover{
     text-decoration: underline;
     background-image: linear-gradient( #f75b13, orange);  
+}
+
+.last-section{
+background-color: gainsboro;
+padding: 10px 0;
+}
+#word{
+    font-size: 40px;
+    text-align: center;
+}
+.color{
+    color: #ff5100b4;
+}
+.project{
+    width: 25%;
+    height: 50vh;
+    margin: 2% 4.15%;
+    float: left;
+    background-color: white;
+    box-shadow: 2px 5px 20px 2px grey;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.lastet{
+    text-align: center; 
+    font-size: 3rem;
+}
+.project img{
+    width: 100%;
+}
+.margin{
+    margin:5px 0 10px 10px;
+}
+
+.chat-div{
+    height: 40vh;
+    width: 80%;
+   background-image: url("shapes/Group_33094_1.png");
+   background-size: cover;
+    margin: 2% 10%;
+    border-radius: 30px;
+    position: relative;
+}
+.chat-div h1{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 10vh; 
+    bottom: 8vh;
+}
+.chat-box{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, #f75b13) ;
+    position: absolute;
+    right: 100px;
+    bottom: 16vh;
+}
+.chat-box:hover{
+    text-decoration: underline;
+    background-image: linear-gradient( #f75b13, orange);
+}
+
+.contacted{
+    text-align: center;
+    margin-top: 10vh;
+}
+.contacted h3{
+    color: grey;
+    font-weight: 500;
+}
+.contacted h2{
+    color: #5959ffe5;
+}
+.contacted img{
+    width: 5vh;
+    height: 5vh;
+    margin: 0 10px;
 }
